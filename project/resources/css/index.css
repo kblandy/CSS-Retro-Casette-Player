@@ -1,0 +1,38 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+
+title {
+    background-color: rosybrown;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+/* classes */
+.main {
+    color: rosybrown;
+    margin: auto;
+    padding: 2em;
+    height: 80vh;
+    width: 80vw;
+}
+
+.casette-player {
+    width: 500px;
+    height: 300px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin: auto;
+    
+    display: flex;
+}
+
+.casette-interior {
+    width: 96%;
+    height: 96%;
+    border: 2px solid gray;
+    margin: auto;
+    align-self: center;;
+}
